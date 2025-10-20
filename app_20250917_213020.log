@@ -1,0 +1,23 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
+
+/data02/wanghy/server_status/data_analyzer.py:43: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  df['hour'] = df['timestamp'].dt.floor('H')
+/data02/wanghy/server_status/data_analyzer.py:87: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/data_analyzer.py:43: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/data_analyzer.py:87: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+  Stopping...

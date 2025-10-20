@@ -1,0 +1,81 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
+
+/data02/wanghy/server_status/app.py:195: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  df['hour'] = df['timestamp'].dt.floor('H')
+/data02/wanghy/server_status/app.py:238: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+2025-09-17 20:17:52.159 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "/data02/wanghy/server_status/app.py", line 510, in <module>
+    main()
+  File "/data02/wanghy/server_status/app.py", line 320, in main
+    show_daily_view()
+  File "/data02/wanghy/server_status/app.py", line 432, in show_daily_view
+    st.dataframe(today_stats[['user', 'avg_gpu_util', 'avg_cpu_util', 'usage_minutes']].rename(columns={
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/runtime/metrics_util.py", line 443, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/elements/arrow.py", line 618, in dataframe
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+/data02/wanghy/server_status/app.py:195: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/app.py:238: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+2025-09-17 20:20:32.584 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "/data02/wanghy/server_status/app.py", line 510, in <module>
+    main()
+  File "/data02/wanghy/server_status/app.py", line 322, in main
+    show_weekly_view()
+  File "/data02/wanghy/server_status/app.py", line 483, in show_weekly_view
+    st.dataframe(week_stats[['user', 'avg_gpu_util', 'avg_cpu_util', 'usage_minutes']].rename(columns={
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/runtime/metrics_util.py", line 443, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/home/baixy/.conda/envs/unet-env/lib/python3.10/site-packages/streamlit/elements/arrow.py", line 618, in dataframe
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+/data02/wanghy/server_status/app.py:195: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/app.py:238: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/app.py:195: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/app.py:238: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/app.py:195: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+/data02/wanghy/server_status/app.py:238: FutureWarning:
+
+'H' is deprecated and will be removed in a future version, please use 'h' instead.
+
+  Stopping...
