@@ -3,3 +3,5 @@ __pycache__/
 disk_cache.json
 
 streamlit.pid
+
+*.log
