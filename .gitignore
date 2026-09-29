@@ -5,3 +5,5 @@ disk_cache.json
 streamlit.pid
 
 *.log
+
+monitor_data/usage_history.json
